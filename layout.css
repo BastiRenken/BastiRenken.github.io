@@ -12,8 +12,8 @@ h1 {
 h2 {
 	font-family: arial;
 	font-size: 28px;
-	margin: 30px 10px 10px 30px;
-	color: red;
+	margin: 0.5em 1em;
+	color: black;
 }
 li {
 	font-family: arial;
@@ -22,40 +22,31 @@ li {
 	line-height: 1.5em;
 	margin: 0px 30px 5px 30px;
 }
-p {font-family: arial;
-	font-size: 18px;
-	line-height: 1.5em;
-	margin: 10px 10px 10px 60px;
-}
-img {
-	margin: 10px 10px 10px 60px
-}
-#photomenu {
-	box-sizing: content-box;
-	width: 300px;
-	height: 190px;
-	padding: 10px;
-	margin: 20px;
-	border: 5px solid black;
-	background-color: wheat;
-}
+
 #homelink {
 	color: red;
 	text-decoration: none;
 }
 #homebox {
 	box-sizing: content-box;
-	width: 370px;
+	float: none;
+	width: 1000px;
 	height: 60px;
 	padding: 4px;
-	margin: 30px 20px 30px 60px;
+	margin: 60px 0px 0px 60px;
 	border: 0px solid black;
 	background-color: limegreen;
 }
-.bullets {
-	font-style: normal;
+#seitenleiste {
+    float:left;
+    width:220px;
+		height: 800px;
+    background-color:thistle;
+		margin: 0px 0px 0px 60px;
 }
-.fusszeile {
-	color: black;
-	margin: 10px 50px 10px 60px
+#inhalt {
+    margin: 0px 0px 0px 280px;
+		width: 790px;
+		height: 800px;
+    background-color:silver;
 }
