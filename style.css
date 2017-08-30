@@ -1,0 +1,48 @@
+body {
+	background-color: lavender;
+}
+h1 {
+	font-family: arial;
+	font-size: 28px;
+	margin: 30px 0px 30px 0px;
+	color: silver;
+}
+li {
+	font-family: arial;
+	font-size: 18px;
+	font-style: italic;
+	color: silver;
+	line-height: 2em;
+	margin: 5px 30px 0px 10px;
+}
+#seitenleiste {
+  float:left;
+  width:220px;
+	height: 1200px;
+  background-color:midnightblue;
+	margin: 0px 0px 0px 0px;
+}
+#inhalt {
+  margin: 20px 0px 0px 280px;
+	width: 800px;
+	height: 1200px;
+  background-color:silver;
+}
+#textinhalt {
+	margin: 30px 0px 0px 40px;
+	font-family: arial;
+	font-size: 18px
+}
+#startseitenfoto1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.inhaltlinks {
+	color: silver;
+	text-decoration: none;
+}
+.homebutton {
+	color: silver;
+	text-decoration: none;
+}
