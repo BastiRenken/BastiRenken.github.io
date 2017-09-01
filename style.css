@@ -78,6 +78,9 @@ p {
 	border-radius: 5px;
 	float: right;
 }
+#website {
+	border: none;
+}
 .inhaltlinks {
 	color: silver;
 	text-decoration: none;
