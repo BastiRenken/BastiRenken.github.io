@@ -44,11 +44,12 @@ p {
 }
 #seitenleiste {
   float:left;
-  width:250px;
+  width: 250px;
 	height: 1260px;
   background-color:midnightblue;
 	margin: 0px 0px 0px 0px;
 	border-radius: 10px;
+	overflow: scroll;
 }
 #inhalt {
   margin: 0px 0px 0px 260px;
@@ -57,6 +58,7 @@ p {
 	height: 1200px;
   background-color:silver;
 	border-radius: 10px;
+	overflow: scroll;
 }
 #textinhalt {
 	margin: 30px 0px 0px 40px;
@@ -77,6 +79,14 @@ p {
 	margin: 10px 0px 0px 40px;
 	border-radius: 5px;
 	float: right;
+}
+#uhr {
+	font-family: arial;
+	font-size: 18px;
+	color: midnightblue;
+	margin: 0px;
+	float: right;
+	z-index: 2;
 }
 .inhaltlinks {
 	color: silver;
