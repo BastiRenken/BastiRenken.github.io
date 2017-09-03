@@ -43,22 +43,22 @@ p {
 	color: midnightblue;
 }
 #seitenleiste {
-  float:left;
-  width: 250px;
+  	float:left;
+  	width: 250px;
 	height: 1260px;
-  background-color:midnightblue;
+ 	background-color:midnightblue;
 	margin: 0px 0px 0px 0px;
 	border-radius: 10px;
-	overflow: scroll;
+	overflow: hidden;
 }
 #inhalt {
-  margin: 0px 0px 0px 260px;
+  	margin: 0px 0px 0px 260px;
 	padding: 30px;
 	width: 800px;
 	height: 1200px;
-  background-color:silver;
+  	background-color:silver;
 	border-radius: 10px;
-	overflow: scroll;
+	overflow: hidden;
 }
 #textinhalt {
 	margin: 30px 0px 0px 40px;
