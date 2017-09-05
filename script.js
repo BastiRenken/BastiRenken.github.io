@@ -1,19 +1,22 @@
-
-document.getElementById("ueberschrift").onmouseover = function() {mouseOver()};
-document.getElementById("ueberschrift").onmouseout = function() {mouseOut()};
+document.getElementById("ueberschrift").onmouseover = function() {
+  mouseOver()
+};
+document.getElementById("ueberschrift").onmouseout = function() {
+  mouseOut()
+};
 
 function mouseOver() {
-    document.getElementById("ueberschrift").style.color = "chartreuse";
+  document.getElementById("ueberschrift").style.color = "chartreuse";
 }
 
 function mouseOut() {
-    document.getElementById("ueberschrift").style.color = "midnightblue";
+  document.getElementById("ueberschrift").style.color = "midnightblue";
 }
 
-function showTime(){
-    var jetzt=new Date();
-    var time=jetzt.toLocaleDateString()+", "+jetzt.toLocaleTimeString();
-    document.getElementById("uhr").textContent=time;
+function showTime() {
+  var jetzt = new Date();
+  var time = jetzt.toLocaleDateString() + ", " + jetzt.toLocaleTimeString();
+  document.getElementById("uhr").textContent = time;
 }
 window.setInterval(showTime, 1000);
 

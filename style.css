@@ -1,111 +1,128 @@
 body {
-	background-color: lavender;
+  background-color: lavender;
 }
+
 h1 {
-	font-family: arial;
-	font-size: 28px;
-	margin: 30px 0px 30px 0px;
-	color: silver;
-	line-height: 1.2;
+  font-family: arial;
+  font-size: 28px;
+  margin: 30px 0px 30px 0px;
+  color: silver;
+  line-height: 1.2;
 }
+
 h2 {
-	font-family: arial;
-	font-size: 60px;
-	margin: 0px 0px 30px 50px;
-	color: midnightblue;
-	font-style: italic;
+  font-family: arial;
+  font-size: 60px;
+  margin: 0px 0px 30px 50px;
+  color: midnightblue;
+  font-style: italic;
 }
+
 h3 {
-	font-family: arial;
-	font-size: 28px;
-	margin: 10px 0px 20px 40px;
-	color: midnightblue;
+  font-family: arial;
+  font-size: 28px;
+  margin: 10px 0px 20px 40px;
+  color: midnightblue;
 }
+
 li {
-	font-family: arial;
-	font-size: 18px;
-	font-style: italic;
-	color: silver;
-	line-height: 2em;
-	margin: 5px 30px 0px 10px;
+  font-family: arial;
+  font-size: 18px;
+  font-style: italic;
+  color: silver;
+  line-height: 2em;
+  margin: 5px 30px 0px 10px;
 }
+
 ul {
-	font-family: arial;
-	font-size: 18px;
-	color: midnightblue;
-	line-height: 2em;
-	margin: 0px 0px 0px 0px;
+  font-family: arial;
+  font-size: 18px;
+  color: midnightblue;
+  line-height: 2em;
+  margin: 0px 0px 0px 0px;
 }
+
 p {
-	font-size: 18px;
-	font-family: arial;
-	line-height: 1.5em;
-	color: midnightblue;
+  font-size: 18px;
+  font-family: arial;
+  line-height: 1.5em;
+  color: midnightblue;
 }
+
 #seitenleiste {
-  	float:left;
-  	width: 250px;
-	height: 1260px;
- 	background-color:midnightblue;
-	margin: 0px 0px 0px 0px;
-	border-radius: 10px;
-	overflow: hidden;
+  float: left;
+  width: 250px;
+  height: 1260px;
+  background-color: midnightblue;
+  margin: 0px 0px 0px 0px;
+  border-radius: 10px;
+  overflow: hidden;
 }
+
 #inhalt {
-  	margin: 0px 0px 0px 260px;
-	padding: 30px;
-	width: 800px;
-	height: 1200px;
-  	background-color:silver;
-	border-radius: 10px;
-	overflow: hidden;
+  margin: 0px 0px 0px 260px;
+  padding: 30px;
+  width: 800px;
+  height: 1200px;
+  background-color: silver;
+  border-radius: 10px;
+  overflow: hidden;
 }
+
 #textinhalt {
-	margin: 30px 0px 0px 40px;
-	font-family: arial;
-	font-size: 18px
+  margin: 30px 0px 0px 40px;
+  font-family: arial;
+  font-size: 18px
 }
+
 #startseitenfoto {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 760px;
- 	height: auto;
-	border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 760px;
+  height: auto;
+  border-radius: 5px;
 }
+
 #profilbild {
-	width: 200px;
-	height: auto;
-	margin: 10px 0px 0px 40px;
-	border-radius: 5px;
-	float: right;
+  width: 200px;
+  height: auto;
+  margin: 10px 0px 0px 40px;
+  border-radius: 5px;
+  float: right;
 }
+
 #uhr {
-	font-family: arial;
-	font-size: 18px;
-	color: midnightblue;
-	margin: 0px;
-	float: right;
-	z-index: 2;
+  font-family: arial;
+  font-size: 18px;
+  color: midnightblue;
+  margin: 0px;
+  float: right;
+  z-index: 2;
 }
+
 .inhaltlinks {
-	color: silver;
-	text-decoration: none;
+  color: silver;
+  text-decoration: none;
 }
+
 .homebutton {
-	color: silver;
-	text-decoration: none;
+  color: silver;
+  text-decoration: none;
 }
+
 .fotos {
-	height: 238px;
-	width: 358px;
-	margin: 20px;
+  height: 238px;
+  width: 358px;
+  margin: 20px;
 }
+
 .galerie {
-	height: 95%;
-	width: 95%;
-	margin: 20px;
+  height: 95%;
+  width: 95%;
+  margin: 20px;
 }
+
 .audiocontrol {
-	margin: 0px 0px 0px 40px;
+  margin: 0px 0px 0px 40px;
 }
