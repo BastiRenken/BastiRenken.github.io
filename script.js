@@ -16,19 +16,32 @@ document.getElementById("orangebutton").onclick = function() {
 }
 function orangebutton() {
   document.getElementById("body").style.backgroundColor = "orange";
+  document.cookie = "backgroundcolor=orange";
 }
 document.getElementById("lavenderbutton").onclick = function() {
   lavenderbutton()
 }
 function lavenderbutton() {
   document.getElementById("body").style.backgroundColor = "lavender";
+  document.cookie = "backgroundcolor=lavender";
 }
 document.getElementById("greenbutton").onclick = function() {
   greenbutton()
 }
 function greenbutton() {
   document.getElementById("body").style.backgroundColor = "chartreuse";
+  document.cookie = "backgroundcolor=chartreuse";
 }
+
+var background = document.cookie;
+var Wertstart = document.cookie.indexOf("=") + 1;
+var Wertende = document.cookie.indexOf(";");
+if (Wertende == -1) {
+      Wertende = document.cookie.length;
+	}
+var Wert = document.cookie.substring(Wertstart, Wertende);
+document.getElementById("body").style.backgroundColor = Wert;
+
 /*
 function showTime() {
   var jetzt = new Date();
