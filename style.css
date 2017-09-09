@@ -100,7 +100,18 @@ p {
   float: right;
   z-index: 2;
 }
-
+#orangebutton{
+  margin: 40px 0px 0px 20px;
+  background-color: orange;
+}
+#lavenderbutton{
+  margin: 40px 0px 0px 20px;
+  background-color: lavender;
+}
+#greenbutton{
+  margin: 40px 0px 0px 20px;
+  background-color: chartreuse;
+}
 .inhaltlinks {
   color: silver;
   text-decoration: none;
