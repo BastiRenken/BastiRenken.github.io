@@ -40,6 +40,7 @@ if (Wertende == -1) {
       Wertende = document.cookie.length;
 	}
 var Wert = document.cookie.substring(Wertstart, Wertende);
+console.log(Wert);
 document.getElementById("body").style.backgroundColor = Wert;
 
 /*
